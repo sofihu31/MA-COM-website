@@ -33,6 +33,9 @@ a {
     width: 100%;
     min-height: 130px;
     background: #073d70;
+    position: sticky;
+top: 0;
+z-index: 1000;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
