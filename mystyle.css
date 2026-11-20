@@ -557,3 +557,44 @@ z-index: 1000;
         width: 92%;
     }
 }
+
+/* =========================
+   FLOATING OFFICIAL TEXT BOX
+========================= */
+
+.official-box {
+    background: white;
+    border-left: 5px solid #0872b8;
+    padding: 30px;
+    margin: 40px 0;
+    max-width: 600px;
+    box-shadow: 0 10px 30px rgba(7, 61, 112, 0.12);
+    position: relative;
+}
+
+.box-label {
+    display: block;
+    color: #0872b8;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+}
+
+.official-box blockquote {
+    font-family: Georgia, serif;
+    font-size: 21px;
+    line-height: 1.5;
+    color: #073d70;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.official-box a {
+    color: #0872b8;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #0872b8;
+    padding-bottom: 5px;
+}
